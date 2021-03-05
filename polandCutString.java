@@ -99,19 +99,3 @@ public class polandCutString {
 
     }
 }
-//        ArrayList test = new ArrayList();
-//        String s = (String) expression.get(0);
-//        double s1 = Double.parseDouble(s);
-//        s = (String) expression.get(2);
-//        double s2 = Double.parseDouble(s);
-//        System.out.println(s1+s2); 测试能否使用运算
-
-//        ArrayList test = new ArrayList();
-//        Calculate cl = new Calculate();
-//        test.add(cl);
-//        String s = "test";
-//        test.add(s);
-//        test.add("test");
-//        System.out.println(test);
-//        Calculate sb = (Calculate) test.get(0);
-//        sb.test();
