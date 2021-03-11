@@ -14,7 +14,8 @@ public class symbolsIO {
     }
 
     public static void checkSymbol() {
-        switch (String.valueOf(polandCutString.expression.get(i))){
+      for (int i = 0; i < polandCutString.expression.size(); i++) {
+            switch (String.valueOf(polandCutString.expression.get(i))){
                 case "(":{
                     symbols.push(polandCutString.expression.get(i));
                     continue;
@@ -79,9 +80,8 @@ public class symbolsIO {
                 }
                 default:poland.add(polandCutString.expression.get(i));break;
             }
+            stackOut();
         }
-        stackOut();
     }
-
 
 }
