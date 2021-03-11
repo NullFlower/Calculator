@@ -80,8 +80,9 @@ public class symbolsIO {
                 }
                 default:poland.add(polandCutString.expression.get(i));break;
             }
-            stackOut();
+           
         }
+         stackOut();
     }
 
 }
