@@ -36,7 +36,7 @@ public class polandCutString {
             } else if (i < input.length() - 1) {
 
 
-                if (input.charAt(i + 1) == '-') {
+                if (input.charAt(i + 1) == '-'&&input.charAt(i)!=')') {
                     cutInput[t] += input.charAt(i);
                     cutInput[t + 1] += '-';
                     i++;
